@@ -10,14 +10,9 @@
 
 2. **Run the Application**  
     Split your terminal into two panes:
-    - In the first pane, navigate to the server directory and start the server:
+    - In the terminal, navigate to the server directory and start the server:
       ```bash
       cd server
-      npm start
-      ```
-    - In the second pane, navigate to the client directory and start the client:
-      ```bash
-      cd client
       npm start
       ```
 
