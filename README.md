@@ -18,10 +18,7 @@
      npm start
      ```
 
-3. **Add Styling**  
-   Create a CSS file named `styles.css` in the client directory and include it in your HTML file.
-
-4. **Launch the Application**  
+3. **Launch the Application**  
    Open your web browser and visit the client URL (typically `http://localhost:3000`).
 
 Enjoy exploring the application!
