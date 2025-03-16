@@ -1,20 +1,20 @@
-// Define the server URL to which the client will send a request
+// URL of the server to which the client will send a request
 const serverUrl = 'http://localhost:3000';
 
-// Asynchronous function to fetch a message from the server
+// Function to asynchronously retrieve a message from the server
 async function fetchMessage() {
     try {
-        // Send a GET request to the server URL
+        // Make a GET request to the server URL
         const response = await fetch(serverUrl);
-        // Parse the response text
+        // Convert the response to text format
         const data = await response.text();
-        // Log the server response to the console
+        // Output the server's response to the console
         console.log('Server response:', data);
     } catch (error) {
-        // Log any errors that occur during the fetch operation
+        // Handle and log any errors that occur during the request
         console.error('Error fetching message:', error);
     }
 }
 
-// Call the fetchMessage function to execute the fetch operation
+// Invoke the fetchMessage function to perform the request
 fetchMessage();

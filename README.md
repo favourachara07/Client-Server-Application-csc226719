@@ -2,21 +2,26 @@
 
 ## How to Use
 
-1. **Install Dependencies**  
-    Open a terminal in the project directory and run:
-    ```bash
-    npm install
-    ```
+1. **Install Required Packages**  
+   Navigate to the project directory in your terminal and execute:
 
-2. **Run the Application**  
-    Split your terminal into two panes:
-    - In the terminal, navigate to the server directory and start the server:
-      ```bash
-      cd server
-      npm start
-      ```
+   ```bash
+   npm install
+   ```
 
-3. **Access the Application**  
-    Open your browser and navigate to the client URL (usually `http://localhost:3000`).
+2. **Start the Application**  
+   Open two terminal panes:
 
-Enjoy using the application!
+   - In one terminal, go to the server directory and launch the server:
+     ```bash
+     cd server
+     npm start
+     ```
+
+3. **Add Styling**  
+   Create a CSS file named `styles.css` in the client directory and include it in your HTML file.
+
+4. **Launch the Application**  
+   Open your web browser and visit the client URL (typically `http://localhost:3000`).
+
+Enjoy exploring the application!
